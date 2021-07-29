@@ -1,5 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  background: #fdf6e3
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -7,7 +15,7 @@ header, footer {
 }
 
 nav ul {
-  font-family: san-serif;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -19,7 +27,7 @@ nav ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 .wrapper > .dfn {
@@ -41,6 +49,7 @@ a[rel="external"] {
 ol li:first-child {
   color: #719e47;
 }
+
 ol li:last-child {
   color: #2aa198;
 }
